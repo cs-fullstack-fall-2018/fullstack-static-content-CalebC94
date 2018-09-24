@@ -24,4 +24,8 @@ router.get('/food', function(req, res, next) {
     res.sendFile(path.join(__dirname+'/../public/food.html'))
 });
 
+router.get('/food', function(req, res, next) {
+    res.sendFile(path.join(__dirname+'/../public/food.html'))
+});
+
 module.exports = router;
